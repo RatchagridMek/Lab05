@@ -42,7 +42,7 @@ function newElement() {
     if (inputValue === '') {
       alert("คุณต้องระบุข้อมูลก่อน");
     } else {
-      document.getElementById("myList").appendChild(li);
+      document.getElementById("myList").appendChild(list);
     }
     document.getElementById("data").value = "";
     var span = document.createElement("SPAN");
